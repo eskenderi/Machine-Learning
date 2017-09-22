@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("D:\ML Datasets\MNIST", one_hot=True)
+mnist = input_data.read_data_sets("D:\$path_to_mnist_dataset$\MNIST", one_hot=True)
 
 learning_rate = 0.003
 num_steps = 20000
