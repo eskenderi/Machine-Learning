@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("D:\ML Datasets\MNIST", one_hot=True)
+mnist = input_data.read_data_sets("D:\$path_to_mnist_dataset$\MNIST", one_hot=True)
 
 X_train, Y_train = mnist.train.next_batch(5000)
 X_test, Y_test = mnist.train.next_batch(200)
